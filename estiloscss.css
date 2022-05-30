@@ -1,0 +1,91 @@
+/*.contenedor-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-row
+{
+    text-align-last: center;
+}
+.form-row h2
+{
+    font-size: xxx-large;
+}
+.form-row input
+{
+    margin-bottom: 1rem;
+}*/
+textarea {
+    resize: none;
+    margin-bottom: 1rem;
+}
+/*.form-row select
+{
+    margin-bottom: 1rem;
+    width: 66%;
+}
+.form-row button
+{
+    width: 66%;
+}*/
+
+/*.row 
+{
+    display: flex;
+}
+.row > div
+{
+	padding: 0.25rem;
+	border: 2px solid;
+}
+.row > div > button
+{
+    margin-left: 0.75rem;
+}*/
+body 
+{
+	font-family: 'Noto Sans', sans-serif;
+}
+.contenedor
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    flex-direction: row;
+}
+.nombres label
+{
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+.nombres textarea
+{
+    text-align: start;
+    margin-top: 1rem;
+}
+.nombres input
+{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+#nom_grupos
+{
+    align-items: center;
+}
+.row 
+{
+    align-items: center;
+    padding: 0.75rem;
+    background: white;
+    box-shadow: 0 0 100px rgb(0 0 0 / 30%);
+    border-radius: 25px;
+    margin-left: 2rem;
+}
+.row p 
+{
+    word-spacing: 0.25em;
+}
+.row:nth-child(odd), .row:nth-child(odd) {
+    background-color: #ccc;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Tablero</title>
+		<link rel="stylesheet" type="text/css" href="estiloscss.css">
+		<script src="tablero.js"></script>
+		<script src="grupos.js"></script>
+	</head>
+	<body>
+		<!--<div class="contenedor-form">
+			<div class="form-row">
+				<h2>Datos Heroe</h2>
+				<form>
+					<label>¿Alias?</label><br>
+					<input type="text" name="alisas" id="alias" min="1" ><br>
+					<label>¿Nombre?</label><br>
+					<input type="text"name="nombre" id="nombre" min="1" ><br>
+					<label>¿Apellidos?</label><br>
+					<input type="text" name="apellidos" id="apellidos" min="1"><br>
+					<label>¿Lugar de residencia?</label><br>
+					<input type="text" name="residencia" id="residencia" min="1" ><br>
+					<textarea rows="4" cols="20" name="descripcion" form="usrform" id="descripcion" placeholder="Description" ></textarea><br>
+					<label>¿Esta vivo?</label><br>
+					<select name="¿vivo?" id="vivo" >
+						<option value="si">Si</option>
+						<option value="no">No</option>
+					</select><br>
+					<button onclick="cogerDatos(event)">Crear tablero</button>
+				</form>
+			</div>
+		</div>
+			<div id="contenedor">
+			</div>-->
+			<div class = "contenedor">
+				<div class ="nombres">
+					<label>--Nombres--</label><br>
+					<textarea rows="4" cols="20"  form="usrform" id="nombres" placeholder="Nombres" ></textarea><br>
+					<label>--Personas por equipo--</label><br>
+					<input id="numero" type="number" min="1" pattern="^[0-9]+"><br>
+					<button onclick="cogerNombre()">Comenzar</button>
+				</div>
+			</div>
+			<div class = "contenedor" id="nom_grupos">
+			</div>
+	</body>
+</html>
